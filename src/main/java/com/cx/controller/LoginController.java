@@ -32,7 +32,7 @@ public class LoginController {
      * @Param request
      * @Param response
      * @DATE 2020/3/22 13:40
-     * @return {@link ResponseEntity< Void>}
+     * @return {@link ResponseEntity<Void>}
      */
     @GetMapping("/login")
     public ResponseEntity<Void> login(HttpServletRequest request, HttpServletResponse response){
